@@ -118,8 +118,8 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: llama-cpp-artifact
-          path: output/
+          name: build-artifact
+          path: build/
 
 #  ubuntu-latest-gcc:
 #    runs-on: ubuntu-latest
